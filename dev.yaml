@@ -110,7 +110,7 @@ commands:
   # - 'chmod -x ${HOME}/bin/linuxloops'
   - 'chmod -x /bin/linuxloops'
   - 'rm -f /usr/share/applications/grub-customizer.desktop'
-  - 'rm -f /usr/share/applications/gparted.desktop'
+  # - 'rm -f /usr/share/applications/gparted.desktop'
   - 'curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.1/install.sh | bash'
   - 'export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"'
   - '[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"' # This loads nvm
