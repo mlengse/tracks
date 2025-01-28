@@ -70,8 +70,8 @@ packages:
   - 'gnome-shell-extension-appindicator'
   - 'gnome-initial-setup'
   - 'filesystem-blend'
-  # - 'firefox'
-  # - 'fprintd'
+  - 'firefox'
+  - 'fprintd'
   - 'gparted'
   - 'curl' 
   - 'fontconfig' 
@@ -83,12 +83,12 @@ packages:
   - 'xcb-util-wm' 
   # - 'xz'
   - 'grub-customizer'
-  # - 'code'
+  - 'code'
   - 'go'
 
 aur-packages:
   - 'yay-git'
-  - 'visual-studio-code-bin'
+  # - 'visual-studio-code-bin'
   # - 'google-chrome.git'
 
 services:
@@ -114,10 +114,11 @@ commands:
   - 'curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.1/install.sh | bash'
   - 'export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"'
   - '[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"' # This loads nvm
-  - 'nvm install 20'
-  - 'nvm use 20'
+  # - 'nvm install 20'
+  # - 'nvm use 20'
   - 'curl -fsSL https://bun.sh/install | bash'
-  - 'yay -Syu google-chrome'
+  - 'yay -Sy google-chrome'
+  - 'yay -Sy visual-studio-code-bin'
 
 # impl: http://github.com/blend-os/tracks/raw/main
 # repo: https://pkg-repo.blendos.co
