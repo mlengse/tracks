@@ -1,4 +1,5 @@
 impl: 'https://github.com/mlengse/tracks/raw/main'
+repo: https://pkg-repo.blendos.co
 
 track: 'blendos-base'
 
@@ -82,12 +83,13 @@ packages:
   - 'xcb-util-wm' 
   # - 'xz'
   - 'grub-customizer'
-  - 'code'
+  # - 'code'
   - 'go'
 
 aur-packages:
   - 'yay-git.git'
-  - 'google-chrome.git'
+  - 'visual-studio-code-bin'
+  # - 'google-chrome.git'
 
 services:
   - 'gdm'
@@ -115,6 +117,7 @@ commands:
   - 'nvm install 20'
   - 'nvm use 20'
   - 'curl -fsSL https://bun.sh/install | bash'
+  - 'yay -Syu google-chrome'
 
 # impl: http://github.com/blend-os/tracks/raw/main
 # repo: https://pkg-repo.blendos.co
