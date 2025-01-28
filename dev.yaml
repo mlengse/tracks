@@ -70,7 +70,7 @@ packages:
   - 'gnome-shell-extension-appindicator'
   - 'gnome-initial-setup'
   - 'filesystem-blend'
-  - 'firefox'
+  # - 'firefox'
   - 'fprintd'
   - 'gparted'
   - 'curl' 
@@ -85,7 +85,7 @@ packages:
   - 'grub-customizer'
   # - 'chaotic-aur/visual-studio-code-bin'
   # - 'chaotic-aur/google-chrome'
-  - 'chaotic-aur/nvm'
+  # - 'chaotic-aur/nvm'
   # - 'code'
   # - 'go'
 
@@ -94,9 +94,9 @@ packages:
   # - 'visual-studio-code-bin'
   # - 'google-chrome.git'
 
-package-repos:
-  - name: 'chaotic-aur'
-    repo-url: 'https://cdn-mirror.chaotic.cx/$repo/$arch'
+# package-repos:
+#   - name: 'chaotic-aur'
+#     repo-url: 'https://cdn-mirror.chaotic.cx/$repo/$arch'
 
 services:
   - 'gdm'
