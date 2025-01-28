@@ -83,13 +83,19 @@ packages:
   - 'xcb-util-wm' 
   # - 'xz'
   - 'grub-customizer'
-  - 'code'
-  - 'go'
+  - 'chaotic-aur/visual-studio-code-bin'
+  - 'chaotic-aur/google-chrome'
+  # - 'code'
+  # - 'go'
 
-aur-packages:
-  - 'yay-git'
+# aur-packages:
+  # - 'yay-git'
   # - 'visual-studio-code-bin'
   # - 'google-chrome.git'
+
+package-repos:
+  - name: 'chaotic-aur'
+    repo-url: 'https://cdn-mirror.chaotic.cx/$repo/$arch'
 
 services:
   - 'gdm'
@@ -117,8 +123,8 @@ commands:
   # - 'nvm install 20'
   # - 'nvm use 20'
   - 'curl -fsSL https://bun.sh/install | bash'
-  - 'yay -Sy google-chrome'
-  - 'yay -Sy visual-studio-code-bin'
+  # - 'yay -Sy google-chrome'
+  # - 'yay -Sy visual-studio-code-bin'
 
 # impl: http://github.com/blend-os/tracks/raw/main
 # repo: https://pkg-repo.blendos.co
