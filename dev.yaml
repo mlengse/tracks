@@ -26,7 +26,7 @@ packages:
   - 'chaotic-aur/python-gbinder'
   - 'chaotic-aur/waydroid-image-gapps'
   - 'chaotic-aur/bun'
-  - 'chaotic-aur/NVM'
+  - 'chaotic-aur/nvm'
   # - 'kde-utilities-meta'
   # - 'plasma'
   # - 'plasma-workspace'
