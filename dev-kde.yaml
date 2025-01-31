@@ -1,0 +1,19 @@
+impl: 'https://github.com/mlengse/tracks/raw/main'
+repo: https://pkg-repo.blendos.co
+
+track: 'blendos-base'
+
+packages:
+  - 'kde-system-meta'
+  - 'kde-utilities-meta'
+  - 'plasma'
+  - 'plasma-workspace'
+  - 'sddm'
+  # - 'waydroid'
+  # - 'waydroid-image'
+
+services:
+  - 'sddm'
+
+commands:
+  - 'rm -f /usr/share/applications/Waydroid.desktop'
