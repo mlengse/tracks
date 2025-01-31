@@ -32,6 +32,10 @@ packages:
 services:
   - 'sddm'
 
+package-repos:
+  - name: 'chaotic-aur'
+    repo-url: 'https://cdn-mirror.chaotic.cx/$repo/$arch'
+
 commands:
   # - 'rm -f /usr/share/applications/Waydroid.desktop'
   # - 'curl -L https://raw.githubusercontent.com/sebanc/linuxloops/main/linuxloops -O /bin'
