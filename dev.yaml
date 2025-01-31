@@ -4,14 +4,14 @@ repo: https://pkg-repo.blendos.co
 track: 'blendos-base'
 
 packages:
+  - 'curl'
   - 'kde-system-meta'
   - 'kde-utilities-meta'
   - 'plasma'
   - 'plasma-workspace'
   - 'sddm'
-  - 'grub-customizer'
+  - 'xorg'
   - 'fontconfig'
-  - 'curl'
   - 'libxkbcommon-x11'
   - 'nss'
   - 'python-virtualenv'
@@ -19,7 +19,7 @@ packages:
   - 'xcb-util-keysyms'
   - 'xcb-util-wm'
   - 'xz'
-  - 'xorg'
+  - 'grub-customizer'
   # - 'kde-utilities-meta'
   # - 'plasma'
   # - 'plasma-workspace'
@@ -32,6 +32,6 @@ services:
 
 commands:
   # - 'rm -f /usr/share/applications/Waydroid.desktop'
-  - 'curl -L https://raw.githubusercontent.com/sebanc/linuxloops/main/linuxloops -O /bin'
-  - 'chmod -x /bin/linuxloops'
+  # - 'curl -L https://raw.githubusercontent.com/sebanc/linuxloops/main/linuxloops -O /bin'
+  # - 'chmod -x /bin/linuxloops'
   - 'curl -fsSL https://bun.sh/install | bash'
