@@ -20,6 +20,8 @@ packages:
   - 'xcb-util-wm'
   - 'xz'
   - 'grub-customizer'
+  - 'vscodium'
+  - 'chaotic-aur/waydroid'
   # - 'kde-utilities-meta'
   # - 'plasma'
   # - 'plasma-workspace'
