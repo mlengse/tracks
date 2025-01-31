@@ -4,6 +4,7 @@ repo: https://pkg-repo.blendos.co
 track: 'blendos-base'
 
 packages:
+  - 'unzip'
   - 'curl'
   - 'kde-system-meta'
   - 'kde-utilities-meta'
@@ -22,8 +23,7 @@ packages:
   - 'grub-customizer'
   - 'vscodium'
   - 'chaotic-aur/waydroid'
-  - 'python-gbinder'
-  - 'unzip'
+  - 'chaotic-aur/python-gbinder'
   # - 'kde-utilities-meta'
   # - 'plasma'
   # - 'plasma-workspace'
@@ -39,7 +39,9 @@ package-repos:
     repo-url: 'https://cdn-mirror.chaotic.cx/$repo/$arch'
 
 commands:
+  - 'locale-gen'
   - 'rm -f /usr/share/applications/Waydroid.desktop'
   # - 'curl -L https://raw.githubusercontent.com/sebanc/linuxloops/main/linuxloops -O /bin'
   # - 'chmod -x /bin/linuxloops'
   - 'curl -fsSL https://bun.sh/install | bash'
+  - 'waydroid init -s GAPPS'
