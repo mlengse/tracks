@@ -19,6 +19,7 @@ packages:
   - 'xcb-util-keysyms'
   - 'xcb-util-wm'
   - 'xz'
+  - 'xorg'
   # - 'kde-utilities-meta'
   # - 'plasma'
   # - 'plasma-workspace'
