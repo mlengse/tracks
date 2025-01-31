@@ -22,6 +22,8 @@ packages:
   - 'grub-customizer'
   - 'vscodium'
   - 'chaotic-aur/waydroid'
+  - 'python-gbinder'
+  - 'unzip'
   # - 'kde-utilities-meta'
   # - 'plasma'
   # - 'plasma-workspace'
@@ -37,7 +39,7 @@ package-repos:
     repo-url: 'https://cdn-mirror.chaotic.cx/$repo/$arch'
 
 commands:
-  # - 'rm -f /usr/share/applications/Waydroid.desktop'
+  - 'rm -f /usr/share/applications/Waydroid.desktop'
   # - 'curl -L https://raw.githubusercontent.com/sebanc/linuxloops/main/linuxloops -O /bin'
   # - 'chmod -x /bin/linuxloops'
   - 'curl -fsSL https://bun.sh/install | bash'
